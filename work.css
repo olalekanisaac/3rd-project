@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(113, 199, 113);
+}
+.container{
+    max-width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    background-color:white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgb(155, 152, 152);
+}
+.head{
+    background-color:rgb(51, 63, 51);
+    color: white;
+    height: 80px;
+    padding-left: 150px;
+}
+.form{
+    margin-top: 30px;
+    color: gray ;
+}
+label{
+    font-weight: bold;
+}
+.radio{
+    color: rgb(131, 190, 131);
+    font-size: 14;
+    font-weight: lighter;
+}
+.form{
+    border-top: none;
+    
+}
+.box{
+    width: 330px;
+    float: right;
+}
+input[type ="text"],
+input[type="email"],
+input[type="tel"]{
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   background-color: transparent;
+   border-radius: 1px solid;
+   border-bottom: 1px solid;
+   border-color: gray;
+   outline: none;
+}
+.rform{
+    display: flex;
+}
+.prefer{
+    margin-right: 20px;
+}

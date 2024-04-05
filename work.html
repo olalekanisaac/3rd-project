@@ -1,0 +1,85 @@
+<html>
+    <link rel="stylesheet" href="work.css">
+    <body >
+        <div> 
+
+            <form>
+        <div class="container">
+            <div class="head"> 
+            <h1> Client Details</h1>
+            <p> Enter the details of all incoming client</p>
+            </div>
+
+        <div class="form">
+            <label for=" Client-name"> client name.</label>
+            <input  class="box"  type="text" name="Client-name" id="Client-name" required>
+        </div>
+
+        <div class="form">
+            <label for=" Company"> Company.</label>
+            <input  class="box"  type="text" name="Client-name" id="Client-name" required>
+        </div>
+
+        <div class="form">
+            <label for=" title"> Title</label>
+            <input  class="box"  type="text" name="title" id="title" required>
+        </div>
+
+        <div class="form">
+            <label for="Department">Department</label>
+            <input  style="color: rgb(52, 95, 52);" class="box" type="text"   name="Department" list="Department"  placeholder="Select" required>
+
+            <datalist id="Department">
+
+                <option>Chemistry</option>
+                <option>Biology</option>
+                <option>English</option>
+                <option>Maths</option>
+
+            </datalist>
+        
+            <div class="form">
+             <div class="rform">
+
+                <label class="prefer" for="prefer"> preferred Contact method </label>
+
+                <div class="radio">
+                    <label  for="email"> Email</label>
+                    <input    type="radio" name="Email" id="Email">
+                  </div>
+                  <div class="radio">
+                    <label   for="Phone number"> Phone number </label>
+                    <input   type="radio" name="Email" id="Phone number">
+
+                </div>
+
+             </div>
+
+            </div>
+
+            <div class="form">
+                <label for="email">Email:</label>
+                <input class="box"  type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form">
+                <label for="number">Phone number :</label>
+                <input  class="box"  type="tel" id="number" name="number" required>
+            </div>
+
+            <div class="form">
+                <label  for="address"> Company address </label>
+
+                <div>
+                <input class="box"  type="text" id="address" name="address">
+            </div>
+            <div>
+                <input  class="box"  type="text" id="address" name="address">
+            </div>
+
+            </div>
+    </form>
+    </div>
+
+    </body>
+</html>
